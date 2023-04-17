@@ -9,3 +9,10 @@ A selection of tools which may help speed up manual tasks when collecting, clean
 
 - On a sample of 30,000 article URLS, both functions successfully scrape text for 60% of the articles.
 - Using a combination of both functions, article text was scraped successfully in 80% of cases, with at least one of the functions proving effective for each article.
+
+##2. Factiva Article Scraper
+
+- Factiva is a news and business information database owned by Dow Jones & Company that provides access to a wide range of global news sources, company and industry data, and market research.
+- It is possible to download articles as pdf files using the free version of Factiva.
+- This code uses regex to extract the article text, publisher, title and word count from the article pdf, and stores the results in a pandas dataframe.
+- This code is therefore useful for students/researchers looking to construct a database of news articles and article text quickly and cheaply, without having to subscribe to a premium news media service.
