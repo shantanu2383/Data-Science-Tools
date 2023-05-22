@@ -22,6 +22,6 @@ A selection of tools which may help speed up manual tasks when collecting, clean
 - Since google trends data is restrictive in that it only displays interest in a specific term, we also create a function which generates related terms based on googles auto suggestions using the googlesearch library.
 
 ##4. Get Wikipedia Article Title
--One issue we found when working with data on media coverage on stocks, is that the official stock name listed on the exchange is often different to the colloquial name used to reference the stock in the media. (Apple. INC and Apple, Microsoft Corp and Microsoft etc)
--We found that the wikipedia article title often provides a map between the official stock name and the colloquial name.
--This function therefore takes the official stock name as listed on the exchange, and returns the wikipedia article title.
+- One issue we found when working with data on media coverage on stocks, is that the official stock name listed on the exchange is often different to the colloquial name used to reference the stock in the media. (Apple. INC and Apple, Microsoft Corp and Microsoft etc)
+- We found that the wikipedia article title often provides a map between the official stock name and the colloquial name.
+- This function therefore takes the official stock name as listed on the exchange, and returns the wikipedia article title.
